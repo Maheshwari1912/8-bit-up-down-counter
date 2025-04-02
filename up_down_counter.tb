@@ -1,0 +1,21 @@
+module up_down_counter_tb();
+reg clk;
+reg reset;
+reg up_down;
+wire [7:0]count;
+up_down_counter dut(clk,reset,up_down,count);
+initial begin
+clk=0;
+forever #5 clk=~clk;
+end
+initial begin
+reset=1;
+#10;
+reset=0;
+up_down = 1;
+#50;
+up_down = 0;
+#50;
+$stop;
+end
+endmodule
