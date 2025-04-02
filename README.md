@@ -12,4 +12,8 @@ An 8-bit up/down counter is a digital sequential circuit that changes its count 
 
 **simulation results:**
 
+![image](https://github.com/user-attachments/assets/cf630799-d224-404f-9120-ca1b2ecc5c60)
 
+**schematic:**
+
+![image](https://github.com/user-attachments/assets/76687bdb-0dd2-400f-bc8d-8bb18d354761)
